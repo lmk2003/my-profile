@@ -1,0 +1,64 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(40, 40, 40);
+}
+
+.dazai {
+    color:rgb(89, 118, 187);
+    text-align: center;
+}
+
+#fmo {
+    color: rgb(205, 60, 0);
+    list-style: none;
+}
+
+.cen {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.all {
+    width: 700px;
+    margin: 20px auto;
+}
+
+.box {
+    background: rgb(30, 30, 30);                         
+    padding: 5px;                             
+    border-radius: 4px;                        
+    box-shadow: 0 10px 30px rgba(255,255,255,.1); 
+    text-align: center;
+    margin: 20px auto;
+    
+
+}
+
+#myimg {
+    width: 300px;
+    border-radius: 50%;
+  
+}
+
+.inline {
+    list-style: none;
+    padding-left: 0px;
+    display: inline; 
+    padding: 0px 10px; 
+}
+@media (max-width: 960px) {
+    .all {
+        width: 700px;
+    }
+}
+
+@media (max-width: 740px) {
+    .all {
+        width: 500px;
+    }
+}
+
+@media (max-width: 520px) {
+    .all {
+        width: 300px;
+    }
+}
